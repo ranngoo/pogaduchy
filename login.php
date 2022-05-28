@@ -1,6 +1,3 @@
-<!--
-//login.php
-!-->
 <?php
 include('database_connection.php');
 session_start();
@@ -42,7 +39,7 @@ $statement->execute();
 $_SESSION['login_details_id'] = $connect->lastInsertId();
 header('location:index.php');
 }
-	else
+else
 {
 $message = '<label>Zle Haslo</label>';
 }
