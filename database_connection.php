@@ -7,11 +7,6 @@ $user='adminkruk';
 $pass='ZAQ!2wsx';
 $dbname='chat';
 
-$connect1 = mysqli_init();
-mysqli_real_connect($connect1, $host, $user, $pass, $dbname, 3306);
-if (mysqli_connect_errno($connect1)) {
-die('Failed to connect to MySQL: '.mysqli_connect_error());
-}
 
 $connect = new PDO("mysql:host=".$host.";dbname=".$dbname, $user, $pass);
 
