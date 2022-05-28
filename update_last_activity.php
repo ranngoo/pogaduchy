@@ -3,7 +3,6 @@
 include('database_connection.php');
 
 $_SESSION['login_details_id'] = $log_id;
-$wartosc=
 
 if(isset($log_id))
 {
