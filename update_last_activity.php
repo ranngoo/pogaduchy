@@ -6,7 +6,7 @@ include('database_connection.php');
 
 session_start();
 
-$_GET['login_details_id'] = $log_id;
+$_SESSION['login_details_id'] = $log_id;
 
 if(isset($log_id))
 {
