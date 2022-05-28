@@ -7,13 +7,16 @@ $user='adminkruk';
 $pass='ZAQ!2wsx';
 $dbname='chat';
 
-$connect = mysqli_init();
-mysqli_real_connect($connect, $host, $user, $pass, $dbname, 3306);
-if (mysqli_connect_errno($connect)) {
+$connect1 = mysqli_init();
+mysqli_real_connect($connect1, $host, $user, $pass, $dbname, 3306);
+if (mysqli_connect_errno($connect1)) {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
+$connect = new PDO("mysql:host=".$host.";dbname=".$dbname, $user, $pass);
+
 date_default_timezone_set('Europe/Warsaw');
+
 
 function fetch_user_last_activity($user_id, $connect)
 {
