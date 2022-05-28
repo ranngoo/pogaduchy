@@ -38,7 +38,7 @@ header("location:login.php");
 					<button type="button" name="czat grupowy" id="group_chat" class="btn btn-warning btn-xs">czat grupowy</button>
 				</div>
 				<div class="col-md-2 col-sm-3">
-					<p align="right">Czesc - <?php echo $_SESSION['username']; ?> - <a href="logout.php">Wyloguj</a></p>
+					<p align="right">Czesc -<?php echo $_SESSION['username']; ?>-<a href="logout.php">Wyloguj</a></p>
 				</div>
 			</div>
 			<div class="table-responsive">
