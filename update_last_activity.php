@@ -11,7 +11,7 @@ if(isset($log_id))
  
 $que1 = "select login_details_id from login_details 
 where user_id =".$log_id;
- $st = $connect->prepare($query);
+ $st = $connect->prepare($que1);
  
 $query = "
 UPDATE login_details 
