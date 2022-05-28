@@ -18,7 +18,7 @@ WHERE login_details_id = '".$_POST['login_details_id']."'
 $statement = $connect->prepare($query);
 
 $statement->execute();
-}elseif{
+}else{
   console.log("DUPA");
 }
 
