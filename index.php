@@ -13,9 +13,7 @@ if(!isset($_SESSION['user_id']))
 header("location:login.php");
 }
 
-?>
-
-<html>  
+?><html>  
     <head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
