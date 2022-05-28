@@ -1,7 +1,3 @@
-<!--
-//register.php
-!-->
-
 <?php
 
 include('database_connection.php');
@@ -72,7 +68,6 @@ VALUES (:username, :password)
 }
 
 ?>
-
 <html>  
     <head>  
         <title>Chat Application using PHP Ajax Jquery</title>  
