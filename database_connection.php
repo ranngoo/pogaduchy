@@ -2,7 +2,16 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost;dbname=chat;charset=utf8mb4", "root", "");
+$host='pogaduchy-serwer.mysql.database.azure.com';
+$user='adminkruk';
+$pass='ZAQ!2wsx';
+$dbname='chat';
+
+$connect = mysqli_init();
+mysqli_real_connect($connect, $host, $user, $pass, $dbname, 3306);
+if (mysqli_connect_errno($connect)) {
+die('Failed to connect to MySQL: '.mysqli_connect_error());
+}
 
 date_default_timezone_set('Europe/Warsaw');
 
