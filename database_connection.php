@@ -13,7 +13,7 @@ $connect = new PDO("mysql:host=".$host.";dbname=".$dbname, $user, $pass);
 date_default_timezone_set('Europe/Warsaw');
 
 
-function fetch_user_last_activitya($user_id, $connect)
+function fetch_user_last_activity($user_id, $connect)
 {
 	$query = "
 	SELECT * FROM login_details 
