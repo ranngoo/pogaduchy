@@ -1,12 +1,9 @@
 <?php
 
-//update_last_activity.php
-
 include('database_connection.php');
 
-session_start();
-
 $_SESSION['login_details_id'] = $log_id;
+$wartosc=
 
 if(isset($log_id))
 {
