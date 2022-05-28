@@ -2,6 +2,8 @@
 
 include('database_connection.php');
 
+session_start();
+
 $_SESSION['user_id'] = $log_id;
 
 if(isset($log_id))
