@@ -1,7 +1,3 @@
-﻿<!--
-//index.php
-!-->
-
 <?php
 
 include('database_connection.php');
