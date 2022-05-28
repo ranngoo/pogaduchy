@@ -1,7 +1,6 @@
 <?php
 
 include('database_connection.php');
-include('index.php');
 
 $_SESSION['login_details_id'] = $log_id;
 
