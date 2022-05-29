@@ -53,7 +53,7 @@ function fetch_user_chat_history($from_user_id, $to_user_id, $connect)
 			if($row["status"] == '2')
 			{
 				$chat_message = '<em>This message has been removed</em>';
-				$user_name = '<b class="text-success">You</b>';
+				$user_name = '<b class="text-success">TY</b>';
 			}
 			else
 			{
@@ -68,7 +68,7 @@ function fetch_user_chat_history($from_user_id, $to_user_id, $connect)
 		{
 			if($row["status"] == '2')
 			{
-				$chat_message = '<em>This message has been removed</em>';
+				$chat_message = '<em>Wiadomość usunięta</em>';
 			}
 			else
 			{
