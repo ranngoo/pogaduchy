@@ -9,7 +9,7 @@ if(!isset($_SESSION['user_id']))
 header("location:login.php");
 }elese
 {
-	$userabc = $_SESSION['username'];
+	$userabc = $_SESSION['username']
 }
 
 ?><html>  
