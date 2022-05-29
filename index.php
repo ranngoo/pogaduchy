@@ -10,7 +10,6 @@ header("location:login.php");
 }else
 {
 	$userabc = $_SESSION['username'];
-	echo $userabc;
 }
 
 ?><html>  
