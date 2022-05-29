@@ -59,11 +59,11 @@ $message = '<label>zla nazwa uzytkownika</labe>';
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>  
-    <body>  
+    <body style="background-image:bcl.jpg;background-position: center;background-size: cover">  
         <div class="container">
 			<br />
 			
-			<h3 align="center">Chat </h3><br />
+			<h3 align="center">LOGOWANIE </h3><br />
 			<br />
 			<div class="panel panel-default">
   				<div class="panel-heading">Logowanie</div>
