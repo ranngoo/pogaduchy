@@ -8,7 +8,7 @@ if($_POST["action"] == "insert_data")
 	$data = array(
 		':from_user_id'		=>	$_SESSION['user_id'],
 		':chat_message'		=>	$_POST['chat_message'],
-		':status'			=>	'1'
+		':status'			=>	'1',
 	);
 
 	$query = "
