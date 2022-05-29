@@ -80,10 +80,10 @@ VALUES (:username, :password)
         <div class="container">
 			<br />
 			
-			<h3 align="center">Chat Application using PHP Ajax Jquery</a></h3><br />
+			<h3 align="center">REJESTRACJA</a></h3><br />
 			<br />
 			<div class="panel panel-default">
-  				<div class="panel-heading">Rejestracja</div>
+  				<div class="panel-heading"></div>
 				<div class="panel-body">
 					<form method="post">
 						<span class="text-danger"><?php echo $message; ?></span>
