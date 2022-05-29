@@ -8,7 +8,7 @@ $pass='ZAQ!2wsx';
 $dbname='chat';
 
 
-$connect = new PDO('mysql:pogaduchy-serwer.mysql.database.azure.com;dbname=chat'.$dbname, $user, $pass);
+$connect = new PDO('mysql:pogaduchy-serwer.mysql.database.azure.com;dbname=chat'.$user, $pass);
 
 date_default_timezone_set('Europe/Warsaw');
 
