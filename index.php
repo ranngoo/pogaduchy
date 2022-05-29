@@ -7,9 +7,9 @@ session_start();
 if(!isset($_SESSION['user_id']))
 {
 header("location:login.php");
-}elese
+}else
 {
-	$userabc = $_SESSION['username']
+	$userabc = $_SESSION['username'];
 }
 
 ?><html>  
