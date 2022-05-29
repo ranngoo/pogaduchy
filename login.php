@@ -59,7 +59,7 @@ $message = '<label>zla nazwa uzytkownika</labe>';
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>  
-    <body style="background: blue;background-position: center;background-size: cover">  
+    <body style="background:bcl.jpg;background-position: center;background-size: cover">  
         <div class="container">
 			<br />
 			
