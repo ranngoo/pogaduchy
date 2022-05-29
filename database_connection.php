@@ -1,8 +1,8 @@
 <?php
 
 //database_connection.php
-
-$mycon='mysql:host=pogaduchy.mysql.database.azure.com;dbname=chat';
+// drugi serwer pogaduchy.mysql.database.azure.com z mysql 8.0
+$mycon='mysql:host=pogaduchy-serwer.mysql.database.azure.com;dbname=chat';
 $user='adminkruk';
 $pass='ZAQ!2wsx';
 
