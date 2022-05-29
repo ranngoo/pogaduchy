@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$host='pogaduchy-serwer.mysql.database.azure.com';
+$host='pogaduchy.mysql.database.azure.com';
 $user='adminkruk';
 $pass='ZAQ!2wsx';
 $dbname='chat';
