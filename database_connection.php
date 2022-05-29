@@ -2,13 +2,12 @@
 
 //database_connection.php
 
-$host='pogaduchy.mysql.database.azure.com';
+$mycon='mysql:pogaduchy-serwer.mysql.database.azure.com;dbname=chat';
 $user='adminkruk';
 $pass='ZAQ!2wsx';
-$dbname='chat';
 
 
-$connect = new PDO('mysql:pogaduchy-serwer.mysql.database.azure.com;dbname=chat'.$user, $pass);
+$connect = new PDO($mycon, $user, $pass);
 
 date_default_timezone_set('Europe/Warsaw');
 
