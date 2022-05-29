@@ -3,6 +3,7 @@
 include('database_connection.php');
 
 session_start();
+echo session_id();
 
 if(!isset($_SESSION['user_id']))
 {
